@@ -105,7 +105,10 @@ clinical %>%
   gtsummary::as_flex_table() %>%
   save_as_docx(path = 'tabela_clinico_patologico_groups.docx')
 
-
+# Header ------------------------------------------------------------------
+# Hospital de Amor [https://hospitaldeamor.com.br/site/]
+# Núcleo de Epidemiologia e Bioestatística (NEB) [https://iep.hospitaldeamor.com.br/plataformas-de-apoio/neb/]
+# Bioestatístico: Welinton Yoshio Hirai [welinton.hirai@hospitaldeamor.com.br]
 rm(list = ls())
 
 # version 1 -  ter, 27/02/2024
