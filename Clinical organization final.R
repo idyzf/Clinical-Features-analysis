@@ -1,6 +1,5 @@
 library(openxlsx)
 
-
 rm(list=ls())
 clinical_features <- read.xlsx("clinico_atualizado.xlsx")
 
